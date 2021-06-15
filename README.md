@@ -3,6 +3,8 @@
 
 This is Alpine 3.13 + net-snmp-tools added with an "snmpwalk" ENTRYPOINT.
 
+Sometimes I find myself wanting to run an snmpwalk from a box that does not have any SNMP tools installed. I find using a container built with snmpwalk as its *ENTRYPOINT* is more convenient than installing the OS packages for SNMP support.
+
 To perform an snmpwalk, fire off something like this:
 
 ```
