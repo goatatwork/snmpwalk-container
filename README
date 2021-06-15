@@ -2,3 +2,9 @@
 *goat 2021-06-15*
 
 This is Alpine 3.13 + net-snmp-tools added with an "snmpwalk" ENTRYPOINT.
+
+To perform an snmpwalk, fire off something like this:
+
+```
+docker run --init -ti goatatwork/snmpwalk:latest -v 1 -c public 192.168.99.1
+```
