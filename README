@@ -1,0 +1,4 @@
+# Snmpwalk from Net-SNMP 5.9
+*goat 2021-06-15*
+
+This is Alpine 3.13 + net-snmp-tools added with an "snmpwalk" ENTRYPOINT.
